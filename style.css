@@ -10,7 +10,7 @@ body {
   width: 400px;
   height: 500px;
   background-color: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(22px);
   padding: 20px;
   margin: 0 auto;
   margin-top: 50px;
@@ -23,9 +23,9 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: red;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   border: none;
-  border-radius: 10px;
+  border-radius: 130px;
 }
 
 #result-percentage {
@@ -34,16 +34,37 @@ body {
 }
 #result-message {
   color: maroon;
-  text-shadow: red(2px);
+  text-shadow: red(100px);
 }
 #your-name {
-  height: 25px;
-  width: 20cap;
+  height: 35px;
+  width: 25cap;
+  background-color: #B63163;
+  border-radius: 130%;
+  border-color: #FF0000;
+  text-align: center;
 }
 #crush-name {
-  height: 25px;
-  width: 20cap;
+  height: 35px;
+  width: 25cap;
+  background-color: #B63163;
+  border-radius: 130%;
+  border-color: #FF0000;
+  text-align: center;
 }
 #nav{
   margin: 4px;
+}
+#calculate:hover{
+  background: #D73E46;
+  width: 155px;
+}
+
+#your-name:hover{
+  height: 38px;
+  width: 28cap;
+}
+#crush-name:hover{
+  height: 38px;
+  width: 28cap;
 }
