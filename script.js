@@ -12,8 +12,8 @@ function calculateLove() {
     // percentage = 3;
 
     document.getElementById("result-message").innerText =
-      yourName + " and " + crushName + "'s chance of love:";
+      yourName + "🤍  and  " + crushName + " 🤍 's chance of love❤️💝✅:";
     document.getElementById("result-percentage").innerText =
-      percentage.toString() + "%";
+      percentage.toString() + "%❤️";
   }
 }

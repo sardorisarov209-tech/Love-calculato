@@ -3,18 +3,18 @@ body {
   text-align: center;
   background-image: url("hearts.png");
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 #content-box {
   width: 400px;
   height: 500px;
   background-color: transparent;
-  backdrop-filter: blur(22px);
+  backdrop-filter: blur(10px);
   padding: 20px;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 1%;
 }
 
 #calculate {
@@ -33,38 +33,69 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 #result-message {
-  color: maroon;
+  color: #2e0000;
   text-shadow: red(100px);
 }
 #your-name {
   height: 35px;
   width: 25cap;
-  background-color: #B63163;
-  border-radius: 130%;
-  border-color: #FF0000;
+  background: transparent;
+  backdrop-filter: blur(22px);
+  border-radius: 100%;
+  border-color: #ff0000;
   text-align: center;
 }
 #crush-name {
   height: 35px;
   width: 25cap;
-  background-color: #B63163;
-  border-radius: 130%;
-  border-color: #FF0000;
+  background: transparent;
+  backdrop-filter: blur(22px);
+  border-radius: 100%;
+  border-color: #ff0000;
   text-align: center;
 }
-#nav{
-  margin: 4px;
-}
-#calculate:hover{
-  background: #D73E46;
+#calculate:hover {
+  background: #d73e46;
   width: 155px;
+    text-decoration:underline;
 }
 
-#your-name:hover{
+#your-name:hover {
   height: 38px;
   width: 28cap;
+    text-decoration:underline;
 }
-#crush-name:hover{
+#crush-name:hover {
   height: 38px;
   width: 28cap;
+    text-decoration:underline;
+}
+
+#footer {
+  background: transparent;
+  backdrop-filter: blur(22px);
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ff0000;
+
+}
+
+.navbar {
+  margin: 4px;
+  background: transparent;
+  backdrop-filter: blur(22px);
+  border-radius: 10px;
+}
+
+#ultag:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+#ultag,a{
+  text-decoration:none;
+  color: #ff0000;
 }
